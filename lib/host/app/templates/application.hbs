@@ -1,11 +1,31 @@
 {{page-title "EmberBundleAnalyzingPlayground"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-{{!-- <WelcomePage /> --}}
-Hello wonder
-{{!-- Feel free to remove this! --}}
+<div>
+  <h1>Host</h1>
 
-<Button>
-  Hello Damnit
-</Button>
+  <h2>ButtonCodeSplitLodash</h2>
+  <p>Clicking this button will send a network request for the lodash chunk</p>
+  <ButtonCodeSplitLodash {{on "click" this.onClick}}>
+    I code split lodash
+  </ButtonCodeSplitLodash>
+
+  <h2>ButtonCannotCodeSplitUtil</h2>
+  <p>There is no chunk for the dynamically imported util so no network request will be sent</p>
+  <p>Ember doesn't statically analyze non-ember code</p>
+  <ButtonCannotCodeSplitUtil {{on "click" this.onClick}}>
+    I tried to dynamically-imported-util
+  </ButtonCannotCodeSplitUtil>
+</div>
+<hr/>
+
+<ul>
+  <li><a href='/'>home</a></li>
+  <li><a href='/split-route-one'>Split route one</a></li>
+  <li><a href='#'>Split route two</a></li>
+  <li><a href='/routed-engine-one'>Routed engine one</a></li>
+  <li><a href='/routed-engine-two'>Routed engine two</a></li>
+</ul>
+
+<hr/>
+
 {{outlet}}

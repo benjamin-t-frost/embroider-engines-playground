@@ -1,0 +1,16 @@
+{
+  "name": "routed-engine-two",
+  "version": "0.0.0",
+  "keywords": [
+    "ember-addon",
+    "ember-engine"
+  ],
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "ember-auto-import": "^2.6.3",
+    "ember-cli-babel": "*",
+    "ember-cli-htmlbars": "*",
+    "ember-engines": "^0.9.0"
+  },
+  "peerDependencies": {}
+}

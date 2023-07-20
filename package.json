@@ -21,8 +21,5 @@
   },
   "ember": {
     "edition": "octane"
-  },
-  "resolutions": {
-    "@sentry/browser": "^7.59.2"
   }
 }
