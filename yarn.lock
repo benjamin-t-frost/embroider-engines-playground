@@ -207,7 +207,7 @@
   dependencies:
     "@babel/types" "^7.22.5"
 
-"@babel/helper-skip-transparent-expression-wrappers@^7.20.0", "@babel/helper-skip-transparent-expression-wrappers@^7.22.5":
+"@babel/helper-skip-transparent-expression-wrappers@^7.22.5":
   version "7.22.5"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.22.5.tgz"
   integrity sha512-tK14r66JZKiC43p8Ki33yLBVJKlQDFoA8GYN67lWCDCqoL6EMMSuM9b+Iff2jHaM/RRFYl7K+iiru7hbRqNx8Q==
@@ -302,23 +302,6 @@
     "@babel/helper-replace-supers" "^7.22.5"
     "@babel/helper-split-export-declaration" "^7.22.6"
     "@babel/plugin-syntax-decorators" "^7.22.5"
-
-"@babel/plugin-proposal-nullish-coalescing-operator@^7.14.5":
-  version "7.18.6"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/plugin-proposal-nullish-coalescing-operator/-/plugin-proposal-nullish-coalescing-operator-7.18.6.tgz"
-  integrity sha512-wQxQzxYeJqHcfppzBDnm1yAY0jSRkUXR2z8RePZYrKwMKgMlE8+Z6LUno+bd6LvbGh8Gltvy74+9pIYkr+XkKA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.18.6"
-    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
-
-"@babel/plugin-proposal-optional-chaining@^7.14.5":
-  version "7.21.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/plugin-proposal-optional-chaining/-/plugin-proposal-optional-chaining-7.21.0.tgz"
-  integrity sha512-p4zeefM72gpmEe2fkUr/OnOXpWEf8nAgk7ZYVqqfFiyIG7oFfVZcCrU64hWn5xp4tQ9LkV4bTIa5rD0KANpKNA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.20.2"
-    "@babel/helper-skip-transparent-expression-wrappers" "^7.20.0"
-    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
 
 "@babel/plugin-proposal-private-methods@^7.16.5":
   version "7.18.6"
@@ -1036,12 +1019,19 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.14.0", "@babel/runtime@^7.14.5", "@babel/runtime@^7.21.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.14.0", "@babel/runtime@^7.21.0", "@babel/runtime@^7.8.4":
   version "7.22.6"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/runtime/-/runtime-7.22.6.tgz"
   integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
   dependencies:
     regenerator-runtime "^0.13.11"
+
+"@babel/runtime@^7.18.6":
+  version "7.22.10"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@babel/runtime/-/runtime-7.22.10.tgz#ae3e9631fd947cb7e3610d3e9d8fef5f76696682"
+  integrity sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ==
+  dependencies:
+    regenerator-runtime "^0.14.0"
 
 "@babel/template@^7.22.5":
   version "7.22.5"
@@ -1295,31 +1285,32 @@
     broccoli-funnel "^3.0.8"
     semver "^7.3.8"
 
-"@embroider/babel-loader-8@1.9.0":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/babel-loader-8/-/babel-loader-8-1.9.0.tgz"
-  integrity sha512-kEAPkyHXEWxJA9n/zmExhRIOCZPhEgWGyAb3t1hxcJGUzzD6r8zAEE6zfZGRIwpfi3jhkCn/FOZi43eVLJsjgA==
+"@embroider/babel-loader-8@3.0.1":
+  version "3.0.1"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/babel-loader-8/-/babel-loader-8-3.0.1.tgz#2807de5324b9bbfc6b845339ee10b7262c04c6b5"
+  integrity sha512-SQYJ7UnKh2GpsnSTHVZ178ZriK+B5kqlh4kWZhH1DFTyguJ89dCCm4zrjOe7iJDPZxw9R/Vmj+MR2NDxKTofYw==
   dependencies:
     "@babel/core" "^7.14.5"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
-    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
     babel-loader "8"
 
-"@embroider/compat@^1.8.3":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/compat/-/compat-1.9.0.tgz"
-  integrity sha512-4BMW8frZ5RZJY54jmhDNe7cdRqosWynJ6bPTVfL+jvE0Z8o2ROtneMOojj7jouhyRE9XfAnIioI/RenZTei3kg==
+"@embroider/compat@^3.1.3":
+  version "3.2.1"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/compat/-/compat-3.2.1.tgz#bc8b3b045453a362709c3c8c85938554254984c0"
+  integrity sha512-nni6oQTPkSuZZKjXTFTZchO7chFBGKEN0O/xMGn9SxifM7EDl7+y6JlPQFchQcmLGi2DxglsystV0E/jTyc11Q==
   dependencies:
     "@babel/code-frame" "^7.14.5"
     "@babel/core" "^7.14.5"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-transform-runtime" "^7.14.5"
     "@babel/preset-env" "^7.14.5"
+    "@babel/runtime" "^7.18.6"
     "@babel/traverse" "^7.14.5"
-    "@embroider/macros" "1.9.0"
-    "@embroider/shared-internals" "1.8.3"
+    "@embroider/macros" "1.13.1"
     "@types/babel__code-frame" "^7.0.2"
     "@types/yargs" "^17.0.3"
     assert-never "^1.1.0"
+    babel-import-util "^2.0.0"
+    babel-plugin-ember-template-compilation "^2.1.1"
     babel-plugin-syntax-dynamic-import "^6.18.0"
     babylon "^6.18.0"
     bind-decorator "^1.0.11"
@@ -1333,6 +1324,8 @@
     broccoli-source "^3.0.1"
     chalk "^4.1.1"
     debug "^4.3.2"
+    escape-string-regexp "^4.0.0"
+    fast-sourcemap-concat "^1.4.0"
     fs-extra "^9.1.0"
     fs-tree-diff "^2.0.1"
     jsdom "^16.6.0"
@@ -1347,30 +1340,25 @@
     walk-sync "^3.0.0"
     yargs "^17.0.1"
 
-"@embroider/core@^1.8.3":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/core/-/core-1.9.0.tgz"
-  integrity sha512-fjPb1pU7a+V9clpfBCa8CHdxbz7hr6azwNw/DqRQIMM272nrOPml65YVsBE24z7NrHdkqHjvmvDQ+qtl6oBhPw==
+"@embroider/core@^3.1.1":
+  version "3.2.1"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/core/-/core-3.2.1.tgz#cffb903be02fd9a7f41f025b6fb3aa6f3ffd780f"
+  integrity sha512-GhKc9pqPcbKpvUkhTnRqJhr3Pc4xslnzhrGQqBDBNwOZ0/zUU02wpiB+PmiA3+mZFTZNQoUCq4A7vm5dXraQug==
   dependencies:
     "@babel/core" "^7.14.5"
     "@babel/parser" "^7.14.5"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.14.5"
-    "@babel/runtime" "^7.14.5"
     "@babel/traverse" "^7.14.5"
-    "@embroider/macros" "1.9.0"
-    "@embroider/shared-internals" "1.8.3"
+    "@embroider/macros" "1.13.1"
+    "@embroider/shared-internals" "2.4.0"
     assert-never "^1.2.1"
-    babel-import-util "^1.1.0"
-    babel-plugin-ember-template-compilation "^1.0.0"
+    babel-plugin-ember-template-compilation "^2.1.1"
     broccoli-node-api "^1.7.0"
     broccoli-persistent-filter "^3.1.2"
     broccoli-plugin "^4.0.7"
     broccoli-source "^3.0.1"
     debug "^4.3.2"
-    escape-string-regexp "^4.0.0"
     fast-sourcemap-concat "^1.4.0"
-    filesize "^5.0.0"
+    filesize "^10.0.7"
     fs-extra "^9.1.0"
     fs-tree-diff "^2.0.1"
     handlebars "^4.7.7"
@@ -1379,24 +1367,22 @@
     lodash "^4.17.21"
     resolve "^1.20.0"
     resolve-package-path "^4.0.1"
-    strip-bom "^4.0.0"
     typescript-memoize "^1.0.1"
     walk-sync "^3.0.0"
-    wrap-legacy-hbs-plugin-if-needed "^1.0.1"
 
-"@embroider/hbs-loader@1.9.0":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/hbs-loader/-/hbs-loader-1.9.0.tgz"
-  integrity sha512-HBJ/zND9Pwe/eSAPJzR+b8XR/RrjxFKLq80YMEevkkmFLgkT/7aiK3FnZoN3eyuHRZwO5+ela1c57FIM3zSoWg==
+"@embroider/hbs-loader@3.0.2":
+  version "3.0.2"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/hbs-loader/-/hbs-loader-3.0.2.tgz#6e740a06011cb9ed070fbc073d69d0f2b3fc5af2"
+  integrity sha512-uN0w4rbes0xJUvC8YrhkwoTEbMD5wIMPMWF8+3BnLmHcATSFZ34hEmOGorgBB1lLAkv5Vo7xhBulWGwigEvBUg==
 
-"@embroider/macros@1.9.0":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/macros/-/macros-1.9.0.tgz"
-  integrity sha512-12ElrRT+mX3aSixGHjHnfsnyoH1hw5nM+P+Ax0ITZdp6TaAvWZ8dENnVHltdnv4ssHiX0EsVEXmqbIIdMN4nLA==
+"@embroider/macros@1.13.1":
+  version "1.13.1"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/macros/-/macros-1.13.1.tgz#aee17e5af0e0086bd36873bdb4e49ea346bab3fa"
+  integrity sha512-4htraP/rNIht8uCxXoc59Bw2EsBFfc4YUQD9XSpzJ4xUr1V0GQf9wL/noeSuYSxIhwRfZOErnJhsdyf1hH+I/A==
   dependencies:
-    "@embroider/shared-internals" "1.8.3"
+    "@embroider/shared-internals" "2.4.0"
     assert-never "^1.2.1"
-    babel-import-util "^1.1.0"
+    babel-import-util "^2.0.0"
     ember-cli-babel "^7.26.6"
     find-up "^5.0.0"
     lodash "^4.17.21"
@@ -1425,10 +1411,10 @@
     "@ember/test-waiters" "^3.0.2"
     "@embroider/addon-shim" "^1.8.6"
 
-"@embroider/shared-internals@1.8.3", "@embroider/shared-internals@^1.0.0":
-  version "1.8.3"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/shared-internals/-/shared-internals-1.8.3.tgz"
-  integrity sha512-N5Gho6Qk8z5u+mxLCcMYAoQMbN4MmH+z2jXwQHVs859bxuZTxwF6kKtsybDAASCtd2YGxEmzcc1Ja/wM28824w==
+"@embroider/shared-internals@2.2.3", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.2.3":
+  version "2.2.3"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/shared-internals/-/shared-internals-2.2.3.tgz"
+  integrity sha512-4RXJ07TqkQN4FpLBnQ92TZWW4wGAH7CRG37F1iE99rjxoD3IkoKe1IeyNr0Q85lws+2awx4/cEpaUsSwUYiJSg==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -1439,10 +1425,25 @@
     semver "^7.3.5"
     typescript-memoize "^1.0.1"
 
-"@embroider/shared-internals@2.2.3", "@embroider/shared-internals@^2.0.0", "@embroider/shared-internals@^2.2.3":
-  version "2.2.3"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/shared-internals/-/shared-internals-2.2.3.tgz"
-  integrity sha512-4RXJ07TqkQN4FpLBnQ92TZWW4wGAH7CRG37F1iE99rjxoD3IkoKe1IeyNr0Q85lws+2awx4/cEpaUsSwUYiJSg==
+"@embroider/shared-internals@2.4.0":
+  version "2.4.0"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/shared-internals/-/shared-internals-2.4.0.tgz#0e9fdb0b2df9bad45fab8c54cbb70d8a2cbf01fc"
+  integrity sha512-pFE05ebenWMC9XAPRjadYCXXb6VmqjkhYN5uqkhPo+VUmMHnx7sZYYxqGjxfVuhC/ghS/BNlOffOCXDOoE7k7g==
+  dependencies:
+    babel-import-util "^2.0.0"
+    debug "^4.3.2"
+    ember-rfc176-data "^0.3.17"
+    fs-extra "^9.1.0"
+    js-string-escape "^1.0.1"
+    lodash "^4.17.21"
+    resolve-package-path "^4.0.1"
+    semver "^7.3.5"
+    typescript-memoize "^1.0.1"
+
+"@embroider/shared-internals@^1.0.0":
+  version "1.8.3"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/shared-internals/-/shared-internals-1.8.3.tgz"
+  integrity sha512-N5Gho6Qk8z5u+mxLCcMYAoQMbN4MmH+z2jXwQHVs859bxuZTxwF6kKtsybDAASCtd2YGxEmzcc1Ja/wM28824w==
   dependencies:
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
@@ -1470,24 +1471,23 @@
     broccoli-funnel "^3.0.5"
     ember-cli-babel "^7.26.11"
 
-"@embroider/webpack@^1.8.3":
-  version "1.9.0"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/webpack/-/webpack-1.9.0.tgz"
-  integrity sha512-/jq+Tr6Lbp86vT9+PuTT8l7+xXURBmN0fQcRdMSClRlgJhjgz+f/NT0Yn9UUsEe3tRQVo9u8dnnlBo67loyhaA==
+"@embroider/webpack@^3.1.1":
+  version "3.1.5"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@embroider/webpack/-/webpack-3.1.5.tgz#05476b8dae3d191070a219e8aba0b8773275d471"
+  integrity sha512-J4NinNlxPzM4GeUoqnDzOVex2TxtEYjq7fVSxOKefj1bm/V3vzR6Dqwq2sxJmGfNbaTXbMVz6kpbz4bxZz8DOw==
   dependencies:
     "@babel/core" "^7.14.5"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.5"
-    "@babel/plugin-proposal-optional-chaining" "^7.14.5"
-    "@embroider/babel-loader-8" "1.9.0"
-    "@embroider/hbs-loader" "1.9.0"
-    "@embroider/shared-internals" "1.8.3"
-    "@types/source-map" "^0.5.7"
+    "@embroider/babel-loader-8" "3.0.1"
+    "@embroider/hbs-loader" "3.0.2"
+    "@embroider/shared-internals" "2.4.0"
     "@types/supports-color" "^8.1.0"
+    assert-never "^1.2.1"
     babel-loader "^8.2.2"
     babel-preset-env "^1.7.0"
     css-loader "^5.2.6"
     csso "^4.2.0"
     debug "^4.3.2"
+    escape-string-regexp "^4.0.0"
     fs-extra "^9.1.0"
     jsdom "^16.6.0"
     lodash "^4.17.21"
@@ -1544,14 +1544,6 @@
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/di/-/@glimmer/di-0.1.11.tgz"
   integrity sha1-poeMB6E6LCx2/N5ZilyXY3v8QoA=
 
-"@glimmer/encoder@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/encoder/-/encoder-0.42.2.tgz"
-  integrity sha512-8xkdly0i0BP5HMI0suPB9ly0AnEq8x9Z8j3Gee1HYIovM5VLNtmh7a8HsaHYRs/xHmBEZcqtr8JV89w6F59YMQ==
-  dependencies:
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/vm" "^0.42.2"
-
 "@glimmer/env@0.1.7", "@glimmer/env@^0.1.7":
   version "0.1.7"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/env/-/env-0.1.7.tgz"
@@ -1571,32 +1563,6 @@
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/interfaces@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/interfaces/-/interfaces-0.42.2.tgz"
-  integrity sha512-7LOuQd02cxxNNHChzdHMAU8/qOeQvTro141CU5tXITP7z6aOv2D2gkFdau97lLQiVxezGrh8J7h8GCuF7TEqtg==
-
-"@glimmer/low-level@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/low-level/-/low-level-0.42.2.tgz"
-  integrity sha512-s+Q44SnKdTBTnkgX0deBlVNnNPVas+Pg8xEnwky9VrUqOHKsIZRrPgfVULeC6bIdFXtXOKm5CjTajhb9qnQbXQ==
-
-"@glimmer/program@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/program/-/program-0.42.2.tgz"
-  integrity sha512-XpQ6EYzA1VL9ESKoih5XW5JftFmlRvwy3bF/I1ABOa3yLIh8mApEwrRI/sIHK0Nv5s1j0uW4itVF196WxnJXgw==
-  dependencies:
-    "@glimmer/encoder" "^0.42.2"
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/util" "^0.42.2"
-
-"@glimmer/reference@^0.42.1", "@glimmer/reference@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/reference/-/reference-0.42.2.tgz"
-  integrity sha512-XuhbRjr3M9Q/DP892jGxVfPE6jaGGHu5w9ppGMnuTY7Vm/x+A+68MCiaREhDcEwJlzGg4UkfVjU3fdgmUIrc5Q==
-  dependencies:
-    "@glimmer/util" "^0.42.2"
-
 "@glimmer/reference@^0.84.3":
   version "0.84.3"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/reference/-/reference-0.84.3.tgz"
@@ -1607,29 +1573,6 @@
     "@glimmer/interfaces" "0.84.3"
     "@glimmer/util" "0.84.3"
     "@glimmer/validator" "0.84.3"
-
-"@glimmer/runtime@^0.42.1":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/runtime/-/runtime-0.42.2.tgz"
-  integrity sha512-52LVZJsLKM3GzI3TEmYcw2LdI9Uk0jotISc3w2ozQBWvkKoYxjDNvI/gsjyMpenj4s7FcG2ggOq0x4tNFqm1GA==
-  dependencies:
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/low-level" "^0.42.2"
-    "@glimmer/program" "^0.42.2"
-    "@glimmer/reference" "^0.42.2"
-    "@glimmer/util" "^0.42.2"
-    "@glimmer/vm" "^0.42.2"
-    "@glimmer/wire-format" "^0.42.2"
-
-"@glimmer/syntax@^0.42.1":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/syntax/-/syntax-0.42.2.tgz"
-  integrity sha512-SR26SmF/Mb5o2cc4eLHpOyoX5kwwXP4KRhq4fbWfrvan74xVWA38PLspPCzwGhyVH/JsE7tUEPMjSo2DcJge/Q==
-  dependencies:
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/util" "^0.42.2"
-    handlebars "^4.0.13"
-    simple-html-tokenizer "^0.5.8"
 
 "@glimmer/syntax@^0.84.2", "@glimmer/syntax@^0.84.3":
   version "0.84.3"
@@ -1658,11 +1601,6 @@
     "@glimmer/interfaces" "0.84.3"
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/util@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/util/-/util-0.42.2.tgz"
-  integrity sha512-Heck0baFSaWDanCYtmOcLeaz7v+rSqI8ovS7twrp2/FWEteb3Ze5sWQ2BEuSAG23L/k/lzVwYM/MY7ZugxBpaA==
-
 "@glimmer/util@^0.44.0":
   version "0.44.0"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/util/-/util-0.44.0.tgz"
@@ -1687,22 +1625,6 @@
   integrity sha512-HS2dEbJ3CgXn56wk/5QdudM7rE3vtNMvPIoG7Rrg+GhkGMNxBCIRxOeEF2g520j9rwlA2LAZFpc7MCDMFbTjNA==
   dependencies:
     babel-plugin-debug-macros "^0.3.4"
-
-"@glimmer/vm@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/vm/-/vm-0.42.2.tgz"
-  integrity sha512-D2MNU5glICLqvet5SfVPrv+l6JNK2TR+CdQhch1Ew+btOoqlW+2LIJIF/5wLb1POjIMEkt+78t/7RN0mDFXGzw==
-  dependencies:
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/util" "^0.42.2"
-
-"@glimmer/wire-format@^0.42.2":
-  version "0.42.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@glimmer/wire-format/-/wire-format-0.42.2.tgz"
-  integrity sha512-IqUo6mdJ7GRsK7KCyZxrc17ioSg9RBniEnb418ZMQxsV/WBv9NQ359MuClUck2M24z1AOXo4TerUw0U7+pb1/A==
-  dependencies:
-    "@glimmer/interfaces" "^0.42.2"
-    "@glimmer/util" "^0.42.2"
 
 "@handlebars/parser@~2.0.0":
   version "2.0.0"
@@ -2050,13 +1972,6 @@
     "@types/http-errors" "*"
     "@types/mime" "*"
     "@types/node" "*"
-
-"@types/source-map@^0.5.7":
-  version "0.5.7"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/@types/source-map/-/source-map-0.5.7.tgz"
-  integrity sha512-LrnsgZIfJaysFkv9rRJp4/uAyqw87oVed3s1hhF83nwbo9c7MG9g5DqR0seHP+lkX4ldmMrVolPjQSe2ZfD0yA==
-  dependencies:
-    source-map "*"
 
 "@types/supports-color@^8.1.0":
   version "8.1.1"
@@ -2990,7 +2905,7 @@ babel-import-util@^0.2.0:
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/babel-import-util/-/babel-import-util-0.2.0.tgz"
   integrity sha512-CtWYYHU/MgK88rxMrLfkD356dApswtR/kWZ/c6JifG1m10e7tBBrs/366dFzWMAoqYmG5/JSh+94tUSpIwh+ag==
 
-babel-import-util@^1.1.0, babel-import-util@^1.2.0:
+babel-import-util@^1.1.0:
   version "1.4.1"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/babel-import-util/-/babel-import-util-1.4.1.tgz"
   integrity sha512-TNdiTQdPhXlx02pzG//UyVPSKE7SNWjY0n4So/ZnjQpWwaM5LvWBLkWa1JKll5u06HNscHD91XZPuwrMg1kadQ==
@@ -3057,20 +2972,18 @@ babel-plugin-ember-modules-api-polyfill@^3.5.0:
   dependencies:
     ember-rfc176-data "^0.3.17"
 
-babel-plugin-ember-template-compilation@^1.0.0:
-  version "1.0.2"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-1.0.2.tgz"
-  integrity sha512-4HBMksmlYsWEf/C/n3uW5rkBRbUp4FNaspzdQTAHgLbfCJnkLze8R6i6sUSge48y/Wne7mx+vcImI1o6rlUwXQ==
-  dependencies:
-    babel-import-util "^1.2.0"
-    line-column "^1.0.2"
-    magic-string "^0.26.0"
-    string.prototype.matchall "^4.0.5"
-
 babel-plugin-ember-template-compilation@^2.0.0, babel-plugin-ember-template-compilation@^2.0.1:
   version "2.1.1"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.1.1.tgz"
   integrity sha512-vwEUw7qfwAgwUokQc5xMxrcJMhCu2dVvDDMIXFyOpXwxt+kqZ2FKvXFV+rJjYchIgHH5rBduEtt4Qk1qeZ6RDA==
+  dependencies:
+    "@glimmer/syntax" "^0.84.3"
+    babel-import-util "^2.0.0"
+
+babel-plugin-ember-template-compilation@^2.1.1:
+  version "2.2.0"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/babel-plugin-ember-template-compilation/-/babel-plugin-ember-template-compilation-2.2.0.tgz#b119fadcd5c831299fbd706420d2ea742848a659"
+  integrity sha512-1I7f5gf06h5wKdKUvaYEIaoSFur5RLUvTMQG4ak0c5Y11DWUxcoX9hrun1xe9fqfY2dtGFK+ZUM6sn6z8sqK/w==
   dependencies:
     "@glimmer/syntax" "^0.84.3"
     babel-import-util "^2.0.0"
@@ -6853,10 +6766,10 @@ file-uri-to-path@1.0.0:
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz"
   integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
 
-filesize@^5.0.0:
-  version "5.0.3"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/filesize/-/filesize-5.0.3.tgz"
-  integrity sha512-RM123v6KPqgZJmVCh4rLvCo8tLKr4sgD92DeZ+AuoUE8teGZJHKs1cTORwETcpIJSlGsz2WYdwKDQUXby5hNqQ==
+filesize@^10.0.7:
+  version "10.0.12"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/filesize/-/filesize-10.0.12.tgz#6eef217c08e9633cdbf438d9124e8f5f524ffa05"
+  integrity sha512-6RS9gDchbn+qWmtV2uSjo5vmKizgfCQeb5jKmqx8HyzA3MoLqqyQxN+QcjkGBJt7FjJ9qFce67Auyya5rRRbpw==
 
 filesize@^9.0.11:
   version "9.0.11"
@@ -7584,7 +7497,7 @@ gzip-size@^6.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-handlebars@^4.0.13, handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3, handlebars@^4.7.7:
+handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3, handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/handlebars/-/handlebars-4.7.7.tgz"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
@@ -9009,13 +8922,6 @@ magic-string@^0.25.7:
   version "0.25.9"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/magic-string/-/magic-string-0.25.9.tgz"
   integrity sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==
-  dependencies:
-    sourcemap-codec "^1.4.8"
-
-magic-string@^0.26.0:
-  version "0.26.7"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/magic-string/-/magic-string-0.26.7.tgz"
-  integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
   dependencies:
     sourcemap-codec "^1.4.8"
 
@@ -10560,6 +10466,11 @@ regenerator-runtime@^0.13.11, regenerator-runtime@^0.13.4:
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
+
 regenerator-transform@^0.10.0:
   version "0.10.1"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/regenerator-transform/-/regenerator-transform-0.10.1.tgz"
@@ -11207,7 +11118,7 @@ silent-error@^1.0.0, silent-error@^1.0.1, silent-error@^1.1.1:
   dependencies:
     debug "^2.2.0"
 
-simple-html-tokenizer@^0.5.11, simple-html-tokenizer@^0.5.8:
+simple-html-tokenizer@^0.5.11:
   version "0.5.11"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/simple-html-tokenizer/-/simple-html-tokenizer-0.5.11.tgz"
   integrity sha512-C2WEK/Z3HoSFbYq8tI7ni3eOo/NneSPRoPpcM7WdLjFOArFuyXEjAoCdOC3DgMfRyziZQ1hCNR4mrNdWEvD0og==
@@ -11373,11 +11284,6 @@ source-map-url@^0.4.0, source-map-url@^0.4.1:
   version "0.4.1"
   resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/source-map-url/-/source-map-url-0.4.1.tgz"
   integrity sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==
-
-source-map@*:
-  version "0.7.4"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/source-map/-/source-map-0.7.4.tgz"
-  integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
 
 source-map@0.4.x, source-map@^0.4.2:
   version "0.4.4"
@@ -12797,16 +12703,6 @@ wrap-ansi@^7.0.0:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
-
-wrap-legacy-hbs-plugin-if-needed@^1.0.1:
-  version "1.0.1"
-  resolved "https://artifactory.global.square/artifactory/api/npm/square-npm/wrap-legacy-hbs-plugin-if-needed/-/wrap-legacy-hbs-plugin-if-needed-1.0.1.tgz"
-  integrity sha512-aJjXe5WwrY0u0dcUgKW3m2SGnxosJ66LLm/QaG0YMHqgA6+J2xwAFZfhSLsQ2BmO5x8PTH+OIxoAXuGz3qBA7A==
-  dependencies:
-    "@glimmer/reference" "^0.42.1"
-    "@glimmer/runtime" "^0.42.1"
-    "@glimmer/syntax" "^0.42.1"
-    "@simple-dom/interface" "^1.4.0"
 
 wrappy@1:
   version "1.0.2"
